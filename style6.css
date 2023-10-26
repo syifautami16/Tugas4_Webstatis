@@ -1,0 +1,99 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color:rgb(202, 216, 255) ;
+    color:rgb(1, 1, 1);
+}
+
+.container {
+    width: 1000px ;
+    margin: auto ;
+    background-color: rgb(214, 175, 175);
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+ 
+.container .header ul{
+    margin-left: -40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(220, 237, 145);
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: cornflowerblue;
+    color: beige;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1599036469/bokjoo_photo161117145450imbcdrama11_kakotp.jpg);
+    background-size: cover;
+    background-position: 0 -75px;
+}
+
+.content .penulis {
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: black;
+}
+.content p {
+    text-align:justify ;
+}
+
+.tabelheading h2 {
+    padding: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+.tabeljenis {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1100px;
+    height: 600px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+td {
+    text-align: justify;
+    padding: 15px;
+}
+
+th {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.footer {
+    background-color: pink;
+    text-align: center;
+}
+
+.footer p {
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 3px;
+
+}
+
+.footer .besar {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
